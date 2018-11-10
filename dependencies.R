@@ -1,7 +1,7 @@
 update.packages()
 
 if (!requireNamespace("BiocManager", quietly = TRUE)){
-    install.packages("BiocManager")
+	install.packages("BiocManager")
 	BiocManager::install()
 	BiocManager::install('remotes')
 	BiocManager::install("DelayedArray", version = "3.8", update = TRUE, ask = FALSE)
